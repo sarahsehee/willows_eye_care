@@ -1,4 +1,4 @@
-body, main, div {
+body, main, div, h1, h2, h4, p{
     padding:0;
     margin:0;
 }
@@ -7,9 +7,11 @@ body, main, div {
 
 h1 {
     font-family: 'Roboto Slab', serif;
+    font-size:32px;
     font-weight:400;
     text-align: center;
     color: white;
+    margin:0;
 }
 
 h2 {
@@ -23,11 +25,11 @@ h2 {
 
 h4{
     font-family: 'Roboto Slab', serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight:400;
     text-align:center;
     color:blue;
-    line-height:1.7rem;
+    line-height:2rem;
 }
 
 ul,li,p {
@@ -43,33 +45,32 @@ li {
 header {
     position: sticky;
     top:0;
-    height: 280px;
+    height: 240px;
     width:100vw;
     background-color:#2D42FF;
     box-sizing: border-box;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 
 section {
     width:100vw;
-    padding: 40px 40px 60px 40px;
+    padding: 40px 24px 40px 24px;
     box-sizing: border-box;
 }
 
 .logo{
     width: 100px;
     height:100px;
-    margin-bottom: 30px;
+    margin: 16px auto 16px auto;
     position: relative;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 .logo svg {
     position: absolute;
-    top:0;
 }
 
 .glasses{
@@ -81,7 +82,6 @@ section {
 .glasses img {
     position: absolute;
     width:100px;
-    opacity:0;
 }
 
 
@@ -94,9 +94,14 @@ section {
 .profile_photo{
     width:100px;
     height:100px;
+    margin-bottom:16px;
 }
 
 #map {
     width:100%;
     height:50vh;
+}
+
+#hours p {
+    line-height: 2rem;
 }
