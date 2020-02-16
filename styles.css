@@ -3,7 +3,7 @@ body, main, div {
     margin:0;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,600&display=swap');
 
 h1 {
     font-family: 'Roboto Slab', serif;
