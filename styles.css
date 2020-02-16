@@ -92,8 +92,8 @@ section {
 
 
 .profile_photo{
-    width:100px;
-    height:100px;
+    width:150px;
+    height:150px;
     margin-bottom:16px;
 }
 
@@ -102,6 +102,10 @@ section {
     height:50vh;
 }
 
-#hours p {
-    line-height: 2rem;
+#hours {
+    background-color: #F6F6F6;
+}
+
+.hours {
+    line-height: 3rem;
 }
