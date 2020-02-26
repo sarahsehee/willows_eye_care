@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-      <div class="logo">
+      <div class="logo" id="logo">
         <svg width="100" height="100" viewBox="0 0 700 700" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="105" cy="105" r="105" fill="#EE6F2E"/>
           <path d="M170.48 96.6738C140.272 116.501 113.53 141.174 91.3594 169.589C61.4536 163.304 39 136.774 39 105C39 68.5492 68.5492 39 105 39C138.631 39 166.386 64.1536 170.48 96.6738Z" fill="black"/>
@@ -26,16 +26,14 @@
           <path d="M359.861 497.382C389.322 493.275 412.656 470.063 416.913 440.684C417.682 435.374 413.254 431 407.882 431H293.118C287.746 431 283.318 435.374 284.087 440.684C288.309 469.821 311.294 492.891 340.41 497.276V523.286C340.41 528.651 344.764 533 350.135 533C355.507 533 359.861 528.651 359.861 523.286V497.382Z" fill="black"/>
         </svg>
         <div class="glasses">
-          <img src="img/glasses/circle.png" id="image1"> 
-          <!--  
-          <img src="img/glasses/half.png" class="image2">     
-          <img src="img/glasses/cateyes.png" class="image3"> 
-          -->    
+          <img src="img/glasses/circle.png" class="glass1"> 
+          <img src="img/glasses/half.png" class="glass2">     
+          <img src="img/glasses/cateyes.png" class="glass3">  
         </div>
       </div>
       <h1> Willows Eye Care</h1>
   </header>
-  <section id="introduction" class="flex flex-column justify-center items-center section1">
+  <section id="introduction" class="flex flex-column justify-center items-center vh-100 section1">
     <h2> Welcome to Willows Eye Care!</h2>
     <p class="mb5">
       We look forward to serving your family's eye care and eyewear needs.<br><br>
@@ -49,7 +47,7 @@
       </h4>
     </div>
   </section>
-  <section id="eyecare" class="section2">
+  <section id="eyecare" class="vh-100 section2">
     <h2>
       Optometric Eye Care
     </h2>
@@ -61,7 +59,7 @@
       <li>Contact Lenses: soft lenses, astigmatism, Bifocal and hard gas permeable</li>
     </ul>
   </section>
-  <section id="hours" class="pv5">
+  <section id="hours" class="pv5 section3">
     <h2 class="tc">
       Opening Hours
     </h2>
@@ -86,11 +84,7 @@
       </p>
     </div>
     <div id="map">
-      <div class="mapouter">
-        <div class="gmap_canvas">
-          <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=willows%20eye%20care&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-        </div>    
-      </div>
+      <h4> Map </h4>
     </div>
   </section>
   <script src="https://unpkg.com/in-view@0.6.1/dist/in-view.min.js"></script>

@@ -79,15 +79,18 @@ section {
     width:100px;
 }
 
-.glasses img {
+.glass1, .glass2, .glass3 {
     position: absolute;
     width:100px;
+    opacity:0;
 }
 
+.show {
+  opacity: 1;
+}
 
-
-.in-viewport {
-  opacity:  1;
+.hide {
+    opacity:0;
 }
 
 
