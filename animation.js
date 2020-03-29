@@ -37,19 +37,16 @@ inView('.section1')
   */
 
 
-  inView.threshold(0.03);
+  inView.threshold(0.5);
 
 
 /* Swiper Test */
 var mySwiper = new Swiper ('.swiper-container', {
-  spaceBetween: 30,
-  loop: true,
-  direction: 	'horizontal',
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  pagination: {
-    el: '.swiper-pagination',
-  },
+      loop: true,
+      calculateHeight: true,
+      spaceBetween:10,
+      direction: 	'horizontal',
+      pagination: {
+        el: '.swiper-pagination',
+      },
 });
