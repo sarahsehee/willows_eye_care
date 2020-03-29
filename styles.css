@@ -152,32 +152,6 @@ header {
     opacity: 1;
 }
 
-/*
-.swiper-slide {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 4px;
-}
-*/
-
-/*
-
-#slide1{
-    background-image: url(img/1-0.5x.png);
-}
-
-#slide2{
-    background-image: url(img/2-0.5x.png);
-}
-
-
-#slide3{
-    background-image: url(img/3-0.5x.png);
-}
-
-*/
-
 .i{
     font-style: italic;
     font-size:14px;
