@@ -43,7 +43,7 @@ inView('.section1')
 /* Swiper Test */
 var mySwiper = new Swiper ('.swiper-container', {
       loop: true,
-      calculateHeight: true,
+      autoHeight: true,
       spaceBetween:10,
       direction: 	'horizontal',
       pagination: {
