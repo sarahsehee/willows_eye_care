@@ -60,6 +60,7 @@ li {
 header {
   position: sticky;
   top: 0;
+  z-index: 100;
   height: 240px;
   width: 100vw;
   background-image: url(img/background_bg.png);
@@ -108,11 +109,6 @@ header {
   opacity: 0;
 }
 
-#map {
-  width: 100%;
-  height: 50vh;
-}
-
 #hours {
   background-color: #f6f6f6;
 }
@@ -125,10 +121,20 @@ header {
 .splide_slide {
   z-index: -1;
 }
-.splide_slide img {
+.splide_slide ul {
   width: 100%;
   height: auto;
   border-radius: 2px;
+}
+
+/* ㅌㅏ르트랑 테스트*/
+.image1 {
+  background-image: url("img/1@1x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: auto;
 }
 
 .i {
