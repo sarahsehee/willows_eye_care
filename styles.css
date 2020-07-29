@@ -66,6 +66,8 @@ li {
 }
 
 .header {
+  padding-left: 24px;
+  padding-right: 24px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -171,4 +173,17 @@ li {
 .i {
   font-style: italic;
   font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .slideout {
+    transform: translateX(-16px);
+  }
+  .willows {
+    font-size: 24px;
+  }
+  .logo {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
