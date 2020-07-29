@@ -23,10 +23,4 @@ inView("#intro").on("exit", () => {
   document.querySelector(".set").classList.remove("flex-column");
 });
 
-inView("#intro").on("enter", () => {
-  document.querySelector(".logo").classList.remove("scaledown");
-  document.querySelector(".set").classList.remove("slideout");
-  document.querySelector(".set").classList.add("flex-column");
-});
-
 inView.threshold(0.5);
