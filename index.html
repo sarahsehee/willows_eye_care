@@ -98,30 +98,31 @@
           <h4 class="mb2">Dr. Jason Chung O.D. Optometric Physician</h4>
         </div>
       </div>
-      <div class="w-100-l w-75-m w-100 pv5-m pv4" id="gallery">
+    </section>
+    <section class="w-40-l w-80-m w-100-sm mb5">
+      <div class="w-100" id="gallery">
         <div class="splide" id="image-slider">
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
-                <div class="image1"></div>
+                <div class="images img-1"></div>
               </li>
               <li class="splide__slide">
-                <img src="img/2@1x.jpg" />
+                <div class="images img-2"></div>
               </li>
               <li class="splide__slide">
-                <img src="img/3@1x.jpg" />
+                <div class="images img-3"></div>
               </li>
               <li class="splide__slide">
-                <img src="img/4@1x.jpg" />
+                <div class="images img-4"></div>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-    <!-- Image Gallery -->
     <section
-      class="flex flex-column tc flex-column-m justify-center items-center w-100 pv5 section2 bg-near-white"
+      class="flex flex-column tc flex-column-m justify-center items-center w-100 pv3 pv5 section2 bg-near-white"
     >
       <h2 class="mb4 tc">
         Optometric Eye Care
@@ -152,23 +153,20 @@
         <h2 class="tc mb4">
           Contact Us
         </h2>
-        <p>
+        <p class="contact">
           📞 (253) 848-2338 <br />
           📠 (253)840-5543 <br />
           📩 willowseyecare@gmail.com
         </p>
       </div>
-      <div class="tc w-100 pv3">
-        <h4>Map</h4>
+      <div class="tc w-100 pv5">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2714.423463229266!2d-122.29460168388829!3d47.12996922877359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490fd1eab711d1f%3A0x27a7f1c38f5d4729!2sWillows%20Eye%20Care!5e0!3m2!1sen!2skr!4v1595916776245!5m2!1sen!2skr"
           frameborder="0"
           style="border: 0;"
-          width="100%"
-          height="auto"
-          allowfullscreen=""
+          width="80%"
+          height="400px"
           aria-hidden="false"
-          tabindex="0"
         ></iframe>
       </div>
     </section>
@@ -180,8 +178,6 @@
     document.addEventListener("DOMContentLoaded", function () {
       new Splide("#image-slider", {
         type: "loop",
-        padding: "3rem",
-        gap: 15,
         cover: true,
         heightRatio: 0.6,
       }).mount();
