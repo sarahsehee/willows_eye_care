@@ -87,18 +87,18 @@ li {
 
 .scaledown {
   transform: scale(0.7);
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .slideout {
   transform: translateX(-40px);
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .opacity_title {
@@ -188,7 +188,7 @@ li {
   font-size: 14px;
 }
 
-@media (max-width: 560px) {
+@media (min-width: 320px) {
   /* images */
   .img-1 {
     background-image: url("img/1@0.5x.jpg");
@@ -218,7 +218,7 @@ li {
   }
 }
 
-@media (max-width: 1020px) {
+@media (min-width: 860px) {
   .img-1 {
     background-image: url("img/1@1x.jpg");
   }
