@@ -183,12 +183,16 @@ li {
   background-image: url("img/4@2x.jpg");
 }
 
+.img-willows {
+  background-image: url("img/willows@2x.jpg");
+}
+
 .i {
   font-style: italic;
   font-size: 14px;
 }
 
-@media (min-width: 320px) {
+@media screen and (min-width: 414px) {
   /* images */
   .img-1 {
     background-image: url("img/1@0.5x.jpg");
@@ -205,6 +209,9 @@ li {
   .img-4 {
     background-image: url("img/4@0.5x.jpg");
   }
+  .img-willows {
+    background-image: url("img/willows@0.5x.jpg");
+  }
 
   .slideout {
     transform: translateX(-16px);
@@ -220,7 +227,7 @@ li {
   }
 }
 
-@media (min-width: 860px) {
+@media screen and (min-width: 860px) {
   .img-1 {
     background-image: url("img/1@1x.jpg");
   }
@@ -235,6 +242,10 @@ li {
 
   .img-4 {
     background-image: url("img/4@1x.jpg");
+  }
+
+  .img-willows {
+    background-image: url("img/willows@1x.jpg");
   }
 
   .slideout {
