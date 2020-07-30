@@ -192,7 +192,40 @@ li {
   font-size: 14px;
 }
 
-@media screen and (min-width: 414px) {
+@media screen and (max-width: 860px) {
+  .img-1 {
+    background-image: url("img/1@1x.jpg");
+  }
+
+  .img-2 {
+    background-image: url("img/2@1x.jpg");
+  }
+
+  .img-3 {
+    background-image: url("img/3@1x.jpg");
+  }
+
+  .img-4 {
+    background-image: url("img/4@1x.jpg");
+  }
+
+  .img-willows {
+    background-image: url("img/willows@1x.jpg");
+  }
+
+  .slideout {
+    transform: translateX(-40px);
+  }
+
+  .willows {
+    font-size: 32px;
+  }
+
+  .logo {
+    margin: 16px;
+  }
+}
+@media screen and (max-width: 414px) {
   /* images */
   .img-1 {
     background-image: url("img/1@0.5x.jpg");
@@ -224,39 +257,5 @@ li {
     margin-bottom: 12px;
     margin-left: 0;
     margin-right: 0;
-  }
-}
-
-@media screen and (min-width: 860px) {
-  .img-1 {
-    background-image: url("img/1@1x.jpg");
-  }
-
-  .img-2 {
-    background-image: url("img/2@1x.jpg");
-  }
-
-  .img-3 {
-    background-image: url("img/3@1x.jpg");
-  }
-
-  .img-4 {
-    background-image: url("img/4@1x.jpg");
-  }
-
-  .img-willows {
-    background-image: url("img/willows@1x.jpg");
-  }
-
-  .slideout {
-    transform: translateX(-40px);
-  }
-
-  .willows {
-    font-size: 32px;
-  }
-
-  .logo {
-    margin: 16px;
   }
 }
