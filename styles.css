@@ -224,6 +224,10 @@ li {
   .logo {
     margin: 16px;
   }
+
+  .images {
+    background-size: contain;
+  }
 }
 @media screen and (max-width: 414px) {
   /* images */
@@ -257,5 +261,9 @@ li {
     margin-bottom: 12px;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .images {
+    background-size: contain;
   }
 }
