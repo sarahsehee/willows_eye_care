@@ -192,6 +192,12 @@ li {
   font-size: 14px;
 }
 
+@media screen and (max-width: 1600px) {
+  .images {
+    background-size: contain;
+  }
+}
+
 @media screen and (max-width: 860px) {
   .img-1 {
     background-image: url("img/1@1x.jpg");
@@ -223,10 +229,6 @@ li {
 
   .logo {
     margin: 16px;
-  }
-
-  .images {
-    background-size: contain;
   }
 }
 @media screen and (max-width: 414px) {
